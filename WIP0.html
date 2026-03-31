@@ -1,14 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Index</title>
-<link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file if you have one-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file if you have one-->
 </head>
+
 <body>
-<h1>This is the index page</h1>
-<style></style>
-<script></script> 
+    <h1>In Passing</h1>
+    <p>Poem by: Matthew Shenoda, Page by: Angel Fearrington</p>
+
+<div class="container">
+    <button type="button" onclick="document.getElementById('button2').classList.remove('hidden')" id="button1">There is something inside
+each of us</button>
+    <button type="button" class="hidden" onclick="document.getElementById('button3').classList.remove('hidden')" id="button2">that scurries toward the past
+in our bodies a rooted history</button>
+    <button type="button" class="hidden" onclick="document.getElementById('button4').classList.remove('hidden')" id="button3">perhaps in the balls of our feet</button>
+    <button type="button" class="hidden" onclick="document.getElementById('textArea5').classList.remove('hidden')" id="button4">a microscopic yearning
+that floats inside that sphere</button>
+    
+    <textarea id="textArea5" class="hidden" name="forgotten" rows="4" cols="50">yearning in a language we've forgotten.</textarea>
+</div>
+    
+    <script></script>
+    <style>
+        .hidden {
+            display: none;
+        }
+        .container{
+            position:relative;
+            width:100vw;
+            height:80vh;
+            background-color:lavender;
+        }
+        #button2{
+            position:absolute;
+            left:10vw;
+            top:15vw;
+        }
+        #button3{
+            position:absolute;
+            left:45vw;
+            top:30vw;
+        }
+        #button4{
+            position:absolute;
+            left:50vw;
+            top:50vw;
+        }
+        #textArea5{
+            position:absolute;
+            left:10vw;
+            top:70vw;
+            width:17vw;
+        }
+        @media only screen and (max-width:600px){
+            .container{
+                width:100%;
+                height:auto;
+                display:flex;
+                flex-direction:column;
+            }
+            #button2,
+            #button3,
+            #button4,
+            #textArea5{
+                position:static;
+                margin-top:10px;
+            }
+        }
+    </style>
+
 </body>
+
 </html>
