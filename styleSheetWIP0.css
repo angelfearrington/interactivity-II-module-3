@@ -4,29 +4,90 @@
         .container{
             position:relative;
             width:100vw;
-            height:80vh;
+            height:200vh;
         }
         #button2{
             position:absolute;
-            left:10vw;
-            top:15vw;
+            left:5vw;
+            top:5vw;
         }
         #button3{
             position:absolute;
-            left:45vw;
-            top:30vw;
+            left:75vw;
+            top:10vw;
         }
         #button4{
             position:absolute;
             left:50vw;
-            top:50vw;
+            top:15vw;
         }
-        #textArea5{
+        #button5{
             position:absolute;
             left:10vw;
-            top:70vw;
-            width:17vw;
+            top:20vw;
         }
+        #button6{
+            position:absolute;
+            left:25vw;
+            top:40vw;
+        }
+        #button7{
+            position:absolute;
+            left:35vw;
+            top:45vw;
+        }
+        #button8{
+            position:absolute;
+            left:10vw;
+            top:50vw;
+        }
+        #button9{
+            position:absolute;
+            left:65vw;
+            top:55vw;
+        }
+        #button10{
+            position:absolute;
+            left:5vw;
+            top:60vw;
+        }
+        #button11{
+            position:absolute;
+            left:40vw;
+            top:65vw;
+        }
+        #button12{
+            position:absolute;
+            left:30vw;
+            top:70vw;
+        }
+        #button13{
+            position:absolute;
+            left:10vw;
+            top:75vw;
+        }
+        #button14{
+            position:absolute;
+            left:19vw;
+            top:79vw;
+        }
+        #button15{
+            position:absolute;
+            left:60vw;
+            top:86vw;
+        }
+        #button16{
+            position:absolute;
+            left:65vw;
+            top:83vw;
+        }
+        #button17{
+            position:absolute;
+            left:90vw;
+            top:100vw;
+        }
+
+
         @media only screen and (max-width:600px){
             .container{
                 width:100%;
@@ -38,23 +99,21 @@
             #button2,
             #button3,
             #button4,
-            #textArea5{
+            #button5,
+            #button6,
+            #button7,
+            #button8,
+            #button9,
+            #button10,
+            #button11,
+            #button12,
+            #button13,
+            #button14,
+            #button15,
+            #button16,
+            #button17{
                 position:static;
-                margin-top:10px;
+            
             }
-            #button1{
-                margin-left:-170px;
-            }
-            #button2{
-                margin-left:70px;
-            }
-            #button3{
-                margin-left:-280px;
-            }
-            #button4{
-                margin-left:-40px;
-            }
-            #textArea5{
-                margin-left:330px;
-            }
+            
         }

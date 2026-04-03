@@ -1,18 +1,16 @@
-let brightness = 255;
-
 let firstButton = document.getElementById('button1');
 
-firstButton.style.backgroundColor = `rgb(${brightness},${brightness},${brightness})`;
-
-brightness -=50;
+firstButton.style.backgroundColor = '#9CAF88';
 
 function openNextButton(nextButtonId){
 let nextButtonElement = document.getElementById(nextButtonId);
 nextButtonElement.classList.remove('hidden');
 
-let color = `rgb(${brightness},${brightness},${brightness})`;
 
-nextButtonElement.style.backgroundColor = color;
 
-brightness -=50;
+nextButtonElement.style.backgroundColor = '#9CAF88'
+
 }
+
+document.body.style.backgroundColor = "lavender";
+document.body.style.color = "purple";
