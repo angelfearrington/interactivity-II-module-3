@@ -1,5 +1,10 @@
 body{
     background-color:#ffb8db;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size:13px;
 }
 
 h1{
@@ -14,47 +19,159 @@ h1{
     background-color:deeppink;
     position:absolute;
     left:10vw;
-    top:5vw;
+    top:8.5vw;
+     font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size:13px;
+  color:white;
 }
 #button2{
     background-color:cyan;
     position:absolute;
     left:50vw;
     top:50vw;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size:13px;
 }
 #button3{
     background-color:chartreuse;
     position:absolute;
     left:1vw;
     top:15vw;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size:13px;
 }
 #button4{
     background-color:aquamarine;
     position:absolute;
     left:70vw;
     top:20vw;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size:13px;
 }
 #button5{
     background-color:coral;
     position:absolute;
     left:30vw;
     top:27vw;
+     font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size:13px;
+   color:white;
 }
 #button6{
     background-color:olive;
     position:absolute;
     left:5vw;
     top:54vw;
+     font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size:13px;
+   color:white;
 }
 #button7{
     background-color:tomato;
     position:absolute;
     left:85vw;
     top:45vw;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size:13px;
+   color:white;
 }
 #button8{
     background-color:bisque;
     position:absolute;
     left:90vw;
     top:2vw;
+     font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size:13px;
+}
+#button9{
+    background-color:thistle;
+    position:absolute;
+    left:50vw;
+    top:20vw;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size:13px;
+}
+#button10{
+    background-color:darkgrey;
+    position:absolute;
+    left:15vw;
+    top:35vw;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size:13px;
+   color:white;
+}
+#button11{
+    background-color:crimson;
+    position:absolute;
+    left:60vw;
+    top:40vw;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size:13px;
+   color:white;
+}
+#button12{
+    background-color:gold;
+    position:absolute;
+    left:75vw;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size:13px;
+}
+#button13{
+    background-color:springgreen;
+    position:absolute;
+    left:25vw;
+    top:45vw;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size:13px;
+}
+#button14{
+    background-color:blueviolet;
+    position:absolute;
+    left:92.5vw;
+    top:30vw;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size:13px;
+  color:white;
 }
