@@ -44,8 +44,6 @@ buttonSix.addEventListener('click', function(){
     }
 });
 
-
-
 //------------CORRECT BUTTON EVENT--------------//
 //button4
 function correctButton(){
@@ -53,4 +51,17 @@ function correctButton(){
 }
 function textChange(id){
     id.innerHTML = "CORRECT!! CONGRATS!!!"
+}
+
+const buttonLabels = ["Click Me!", "I'm Correct", "Button", "Hello?", "Never Click Me!!"];
+const container = document.getElementById("buttonContainer");
+for(let i=0;i<buttonLabels.length;i++){
+    const button = document.createElement("button");
+    button.textContent=buttonLabels[i];
+
+    button.addEventListener("click",()=>{
+        alert("You clicked the WRONG button!!!");
+
+    });
+    container.appendChild(button);
 }
