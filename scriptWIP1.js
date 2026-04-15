@@ -44,24 +44,51 @@ buttonSix.addEventListener('click', function(){
     }
 });
 
+//button 7
+const buttonSeven = document.getElementById('button7');
+let count = 0;
+buttonSeven.addEventListener('click', function(){
+    count++;
+    if(count === 1){
+        this.style.display = 'none';
+    }
+});
+
+//button8
+const buttonEight = document.getElementById("button8");
+buttonEight.addEventListener('mouseenter',()=>{
+    buttonEight.textContent = 'Double Click Me';
+    }); 
+  buttonEight.addEventListener('mouseleave',()=>{
+    buttonEight.textContent = 'HELLO!!!';
+});
+function doubleClick(id){
+    id.innerHTML = "WRONG BUTTON!!!"
+}
+
+//button9
+const buttonNine = document.getElementById('button9');
+let whyClick = 0;
+buttonNine.addEventListener('click', function(){
+    whyClick++;
+    if(whyClick === 1){
+        this.innerText = "i said i am not a button, why did you click me?";
+    } else if(whyClick === 2){
+        this.innerText = "stop clicking me!";
+    }else if(whyClick === 3){
+        this.innerText = "please STOP clicking me!!" 
+    } else if(whyClick === 4){
+        this.style.display = 'none';
+    }
+});
+
+
 //------------CORRECT BUTTON EVENT--------------//
 //button4
 function correctButton(){
     alert('CORRECT!!!')
 }
 function textChange(id){
-    id.innerHTML = "CORRECT!! CONGRATS!!!"
+    id.innerHTML = "YOU FOUND ME! YAY!!"
 }
 
-const buttonLabels = ["Click Me!", "I'm Correct", "Button", "Hello?", "Never Click Me!!"];
-const container = document.getElementById("buttonContainer");
-for(let i=0;i<buttonLabels.length;i++){
-    const button = document.createElement("button");
-    button.textContent=buttonLabels[i];
-
-    button.addEventListener("click",()=>{
-        alert("You clicked the WRONG button!!!");
-
-    });
-    container.appendChild(button);
-}

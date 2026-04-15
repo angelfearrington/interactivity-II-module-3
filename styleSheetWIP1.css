@@ -16,7 +16,7 @@ h1{
     font-size: 50px;
 }
 #button1{
-    background-color:deeppink;
+    background-color:#ff1493;
     position:absolute;
     left:10vw;
     top:8.5vw;
@@ -26,6 +26,8 @@ h1{
   font-style: normal;
   font-size:13px;
   color:white;
+  border-radius:3px;
+  border:3px solid #ba0063;
 }
 #button2{
     background-color:cyan;
@@ -37,6 +39,7 @@ h1{
   font-weight: 400;
   font-style: normal;
   font-size:13px;
+  border-radius:5px;
 }
 #button3{
     background-color:chartreuse;
@@ -48,6 +51,7 @@ h1{
   font-weight: 400;
   font-style: normal;
   font-size:13px;
+  border: 4px dashed #0011ff;
 }
 #button4{
     background-color:aquamarine;
@@ -61,7 +65,7 @@ h1{
   font-size:13px;
 }
 #button5{
-    background-color:coral;
+    background-color:#ff7f50;
     position:absolute;
     left:30vw;
     top:27vw;
@@ -71,6 +75,7 @@ h1{
   font-style: normal;
   font-size:13px;
    color:white;
+   border:2px dotted #cc3700
 }
 #button6{
     background-color:olive;
@@ -95,22 +100,26 @@ h1{
   font-style: normal;
   font-size:13px;
    color:white;
+   border-radius:12px;
+   border-style:solid;
+   border-color:aqua purple blue greenyellow;
 }
 #button8{
     background-color:bisque;
     position:absolute;
-    left:90vw;
+    left:80vw;
     top:2vw;
      font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-size:13px;
+  border-radius:9px;
 }
 #button9{
     background-color:thistle;
     position:absolute;
-    left:50vw;
+    left:35vw;
     top:20vw;
     font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
