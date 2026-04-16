@@ -105,7 +105,7 @@ h1{
    border-color:aqua purple blue greenyellow;
 }
 #button8{
-    background-color:bisque;
+    background-color:blueviolet;
     position:absolute;
     left:80vw;
     top:2vw;
@@ -114,7 +114,9 @@ h1{
   font-weight: 400;
   font-style: normal;
   font-size:13px;
+  color:white;
   border-radius:9px;
+  border: 6px dotted #ff0000;
 }
 #button9{
     background-color:thistle;
@@ -130,7 +132,7 @@ h1{
 #button10{
     background-color:darkgrey;
     position:absolute;
-    left:15vw;
+    left:65vw;
     top:35vw;
     font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;

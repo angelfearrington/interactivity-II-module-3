@@ -82,6 +82,10 @@ buttonNine.addEventListener('click', function(){
     }
 });
 
+//button 10
+function newText(id){
+    id.innerHTML = "wrong";
+}    
 
 //------------CORRECT BUTTON EVENT--------------//
 //button4
@@ -92,3 +96,15 @@ function textChange(id){
     id.innerHTML = "YOU FOUND ME! YAY!!"
 }
 
+function shuffle (array){
+    let currentIndex = array.length;
+    while (currentIndex !=0){
+        let randomIndex = Math.floor(Math.random()*currentIndex);
+        currentIndex--;
+        [array[currentIndex], array[randomIndex]] = [
+            array[randomIndex], array[currentIndex]];
+    }
+}
+let arr = ["button1","button2","button3","button4","button5","button6","button7","button8","button9","button10"]
+shuffle(arr);
+console.log(arr);
