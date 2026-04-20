@@ -5,6 +5,9 @@ body{
   font-weight: 500;
   font-style: normal;
   font-size:13px;
+  margin:0;
+  height:100vw;
+  overflow:hidden;
 }
 
 h1{
@@ -16,173 +19,157 @@ h1{
     font-size: 50px;
 }
 #button1{
-    background-color:#ff1493;
-    position:absolute;
-    left:10vw;
-    top:8.5vw;
-     font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
+     position:absolute;
+    font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-style: normal;
+  cursor:pointer;
+  white-space:nowrap;
+  padding:8px 15px;
+  transition:transform 0.1s;
   font-size:13px;
-  color:white;
-  border-radius:3px;
-  border:3px solid #ba0063;
 }
 #button2{
-    background-color:cyan;
-    position:absolute;
-    left:50vw;
-    top:50vw;
+     position:absolute;
     font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
+  cursor:pointer;
+  white-space:nowrap;
+  padding:8px 15px;
+  transition:transform 0.1s;
   font-size:13px;
-  border-radius:5px;
 }
 #button3{
-    background-color:chartreuse;
-    position:absolute;
-    left:1vw;
-    top:15vw;
+     position:absolute;
     font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
+  cursor:pointer;
+  white-space:nowrap;
+  padding:8px 15px;
+  transition:transform 0.1s;
   font-size:13px;
-  border: 4px dashed #0011ff;
 }
 #button4{
-    background-color:aquamarine;
-    position:absolute;
-    left:70vw;
-    top:20vw;
+     position:absolute;
     font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
+  cursor:pointer;
+  white-space:nowrap;
+  padding:8px 15px;
+  transition:transform 0.1s;
   font-size:13px;
 }
 #button5{
-    background-color:#ff7f50;
     position:absolute;
-    left:30vw;
-    top:27vw;
-     font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
+    font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-style: normal;
+  cursor:pointer;
+  white-space:nowrap;
+  padding:8px 15px;
+  transition:transform 0.1s;
   font-size:13px;
-   color:white;
-   border:2px dotted #cc3700
 }
 #button6{
-    background-color:olive;
-    position:absolute;
-    left:5vw;
-    top:54vw;
-     font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
+     position:absolute;
+    font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-style: normal;
+  cursor:pointer;
+  white-space:nowrap;
+  padding:8px 15px;
+  transition:transform 0.1s;
   font-size:13px;
-   color:white;
 }
 #button7{
-    background-color:tomato;
-    position:absolute;
-    left:85vw;
-    top:45vw;
+     position:absolute;
     font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
+  cursor:pointer;
+  white-space:nowrap;
+  padding:8px 15px;
+  transition:transform 0.1s;
   font-size:13px;
-   color:white;
-   border-radius:12px;
-   border-style:solid;
-   border-color:aqua purple blue greenyellow;
 }
 #button8{
-    background-color:blueviolet;
-    position:absolute;
-    left:80vw;
-    top:2vw;
-     font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
+     position:absolute;
+    font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-style: normal;
+  cursor:pointer;
+  white-space:nowrap;
+  padding:8px 15px;
+  transition:transform 0.1s;
   font-size:13px;
-  color:white;
-  border-radius:9px;
-  border: 6px dotted #ff0000;
 }
 #button9{
-    background-color:thistle;
-    position:absolute;
-    left:35vw;
-    top:20vw;
+     position:absolute;
     font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
+  cursor:pointer;
+  white-space:nowrap;
+  padding:8px 15px;
+  transition:transform 0.1s;
   font-size:13px;
 }
 #button10{
-    background-color:darkgrey;
     position:absolute;
-    left:65vw;
-    top:35vw;
     font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
+  cursor:pointer;
+  white-space:nowrap;
+  padding:8px 15px;
+  transition:transform 0.1s;
   font-size:13px;
-   color:white;
 }
 #button11{
-    background-color:crimson;
-    position:absolute;
-    left:60vw;
-    top:40vw;
+     position:absolute;
     font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
+  cursor:pointer;
+  white-space:nowrap;
+  padding:8px 15px;
+  transition:transform 0.1s;
   font-size:13px;
-   color:white;
 }
 #button12{
-    background-color:gold;
-    position:absolute;
-    left:75vw;
+     position:absolute;
     font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
+  cursor:pointer;
+  white-space:nowrap;
+  padding:8px 15px;
+  transition:transform 0.1s;
   font-size:13px;
 }
 #button13{
-    background-color:springgreen;
-    position:absolute;
-    left:25vw;
-    top:45vw;
+     position:absolute;
     font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
+  cursor:pointer;
+  white-space:nowrap;
+  padding:8px 15px;
+  transition:transform 0.1s;
   font-size:13px;
 }
 #button14{
-    background-color:blueviolet;
     position:absolute;
-    left:92.5vw;
-    top:30vw;
     font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
+  cursor:pointer;
+  white-space:nowrap;
+  padding:8px 15px;
+  transition:transform 0.1s;
   font-size:13px;
-  color:white;
 }
+
+.style-1 { background-color: #ff1493; color: white; border-radius: 3px; border: 3px solid #ba0063; }
+.style-2 { background-color: cyan; border-radius: 5px; border: 1px solid #00cccc; }
+.style-3 { background-color: chartreuse; border: 4px dashed #0011ff; }
+.style-4 { background-color: aquamarine; border: 1px solid #7edec0; }
+.style-5 { background-color: #ff7f50; color: white; border: 2px dotted #cc3700; }
+.style-6 { background-color: olive; color: white; border: none; }
+.style-7 { background-color: tomato; color: white; border-radius: 12px; border: 3px solid; border-color: aqua purple blue greenyellow; }
+.style-8 { background-color: blueviolet; color: white; border-radius: 9px; border: 6px dotted #ff0000; }
+.style-9 { background-color: thistle; border: 1px solid #b8a0b8; }
+.style-10 { background-color: darkgrey; color: white; border: none; }
+.style-11 { background-color: crimson; color: white; border: none; }
+.style-12 { background-color: gold; border: 1px solid #d4af37; }
+.style-13 { background-color: springgreen; border: none; }
+.style-14 { background-color: blueviolet; color: white; border: none; }
