@@ -1,0 +1,186 @@
+body{
+    background-color:#ffb8db;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size:13px;
+  margin:0;
+  height:100vw;
+  overflow:hidden;
+}
+
+h1{
+    text-align:center;
+    color:deeppink;
+    font-family: "Rubik Puddles", system-ui;
+    font-weight: 400;
+    font-size: 50px;
+    margin-top:20px;
+}
+#button1{
+     position:absolute;
+    font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  cursor:pointer;
+  white-space:nowrap;
+  padding:8px 15px;
+  transition:transform 0.1s;
+  font-size:13px;
+}
+#button2{
+     position:absolute;
+    font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  cursor:pointer;
+  white-space:nowrap;
+  padding:8px 15px;
+  transition:transform 0.1s;
+  font-size:13px;
+}
+#button3{
+     position:absolute;
+    font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  cursor:pointer;
+  white-space:nowrap;
+  padding:8px 15px;
+  transition:transform 0.1s;
+  font-size:13px;
+}
+#button4{
+     position:absolute;
+    font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  cursor:pointer;
+  white-space:nowrap;
+  padding:8px 15px;
+  transition:transform 0.1s;
+  font-size:13px;
+}
+#button5{
+    position:absolute;
+    font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  cursor:pointer;
+  white-space:nowrap;
+  padding:8px 15px;
+  transition:transform 0.1s;
+  font-size:13px;
+}
+#button6{
+     position:absolute;
+    font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  cursor:pointer;
+  white-space:nowrap;
+  padding:8px 15px;
+  transition:transform 0.1s;
+  font-size:13px;
+}
+#button7{
+     position:absolute;
+    font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  cursor:pointer;
+  white-space:nowrap;
+  padding:8px 15px;
+  transition:transform 0.1s;
+  font-size:13px;
+}
+#button8{
+     position:absolute;
+    font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  cursor:pointer;
+  white-space:nowrap;
+  padding:8px 15px;
+  transition:transform 0.1s;
+  font-size:13px;
+}
+#button9{
+     position:absolute;
+    font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  cursor:pointer;
+  white-space:nowrap;
+  padding:8px 15px;
+  transition:transform 0.1s;
+  font-size:13px;
+}
+#button10{
+    position:absolute;
+    font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  cursor:pointer;
+  white-space:nowrap;
+  padding:8px 15px;
+  transition:transform 0.1s;
+  font-size:13px;
+}
+#button11{
+     position:absolute;
+    font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  cursor:pointer;
+  white-space:nowrap;
+  padding:8px 15px;
+  transition:transform 0.1s;
+  font-size:13px;
+}
+#button12{
+     position:absolute;
+    font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  cursor:pointer;
+  white-space:nowrap;
+  padding:8px 15px;
+  transition:transform 0.1s;
+  font-size:13px;
+}
+#button13{
+     position:absolute;
+    font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  cursor:pointer;
+  white-space:nowrap;
+  padding:8px 15px;
+  transition:transform 0.1s;
+  font-size:13px;
+}
+#button14{
+    position:absolute;
+    font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  cursor:pointer;
+  white-space:nowrap;
+  padding:8px 15px;
+  transition:transform 0.1s;
+  font-size:13px;
+}
+#button15{
+  position:absolute;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  cursor:pointer;
+  white-space:nowrap;
+  padding:8px 15px;
+  transition:transform 0.1s;
+  font-size:13px;
+}
+
+.style-1 { background-color: #ff1493; color: white; border-radius: 3px; border: 3px solid #ba0063; }
+.style-2 { background-color: cyan; border-radius: 5px; border: 1px solid #00cccc; }
+.style-3 { background-color: chartreuse; border: 4px dashed #0011ff; }
+.style-4 { background-color: aquamarine; border: 1px solid #7edec0; }
+.style-5 { background-color: #ff7f50; color: white; border: 2px dotted #cc3700; }
+.style-6 { background-color: olive; color: white; border: none; }
+.style-7 { background-color: tomato; color: white; border-radius: 12px; border: 3px solid; border-color: aqua purple blue greenyellow; }
+.style-8 { background-color: blueviolet; color: white; border-radius: 9px; border: 6px dotted #ff0000; }
+.style-9 { background-color: thistle; border: 1px solid #b8a0b8; }
+.style-10 { background-color: darkgrey; color: white; border: none; }
+.style-11 { background-color: crimson; color: white; border: none; }
+.style-12 { background-color: gold; border: 1px solid #d4af37; }
+.style-13 { background-color: springgreen; border: none; }
+.style-14 { background-color: blueviolet; color: white; border: none; }
+.style-15 { background-color: cadetblue; color: white; border: 3px solid; border-color:palegoldenrod coral blueviolet violet }
