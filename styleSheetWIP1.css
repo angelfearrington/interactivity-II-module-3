@@ -15,8 +15,8 @@ h1{
     color:deeppink;
     font-family: "Rubik Puddles", system-ui;
     font-weight: 400;
-    font-style: normal;
     font-size: 50px;
+    margin-top:20px;
 }
 #button1{
      position:absolute;
@@ -158,6 +158,16 @@ h1{
   transition:transform 0.1s;
   font-size:13px;
 }
+#button15{
+  position:absolute;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  cursor:pointer;
+  white-space:nowrap;
+  padding:8px 15px;
+  transition:transform 0.1s;
+  font-size:13px;
+}
 
 .style-1 { background-color: #ff1493; color: white; border-radius: 3px; border: 3px solid #ba0063; }
 .style-2 { background-color: cyan; border-radius: 5px; border: 1px solid #00cccc; }
@@ -173,3 +183,4 @@ h1{
 .style-12 { background-color: gold; border: 1px solid #d4af37; }
 .style-13 { background-color: springgreen; border: none; }
 .style-14 { background-color: blueviolet; color: white; border: none; }
+.style-15 { background-color: cadetblue; color: white; border: 3px solid; border-color:palegoldenrod coral blueviolet violet }

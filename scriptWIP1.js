@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     const styleClasses = [
         'style-1', 'style-2', 'style-3', 'style-4', 'style-5', 
         'style-6', 'style-7', 'style-8', 'style-9', 'style-10', 
-        'style-11', 'style-12', 'style-13', 'style-14'
+        'style-11', 'style-12', 'style-13', 'style-14', 'style-15'
     ];
     //give each buttona random style and position
     //forEach is like the for(let button of buttons)
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded',()=>{
         //find out how much free space on screen
         const padding = 20;
         const maxX = window.innerWidth - button.offsetWidth - padding;
-        const maxY = window.innerHeight = button.offsetHeight - padding;
+        const maxY = window.innerHeight - button.offsetHeight - padding;
         //pick a random X and Y position
         //start Y at 120px to keep buttons away from title
         const randomX = Math.max(padding, Math.floor(Math.random()*maxX));
