@@ -6,7 +6,8 @@ document.addEventListener('DOMContentLoaded',()=>{
     const styleClasses = [
         'style-1', 'style-2', 'style-3', 'style-4', 'style-5', 
         'style-6', 'style-7', 'style-8', 'style-9', 'style-10', 
-        'style-11', 'style-12', 'style-13', 'style-14', 'style-15'
+        'style-11', 'style-12', 'style-13', 'style-14', 'style-15', 
+        'style-16', 'style-17', 'style-18','style-19', 'style-20'
     ];
     //give each buttona random style and position
     //forEach is like the for(let button of buttons)
