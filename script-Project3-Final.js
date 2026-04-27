@@ -45,6 +45,9 @@ function buttonPopUp(){
     element.style.transform = "translateY(-20px)";
     element.style.color = "#035afc";
     element.style.fontSize = "17px";
+    setTimeout(()=> {
+        document.getElementById("popUp").style.display = "none";
+    }, 3000);
 }
 
 //button2 - WRONG alert
@@ -175,12 +178,25 @@ buttonFifteen.addEventListener('click', function(){
 });
 
 //button 16 - promt alert
-function textUpdate(id){
-    id.innerHTML = "LEAVE ME ALONE!";
-}  
+const buttonSixteen = document.getElementById('button16');
+buttonSixteen.addEventListener('click',function(){
+   let userInput = prompt("Will You Help Me?", "Type Yes or No");
+   if(userInput !== null){
+       alert("LEAVE ME ALONE!!!");
+   }
+});
+
 
 //button 17 - 
-
+function textPopUp(){
+    var txt;
+    if(confirm("Do You Think I Am CORRECT? Click 'CANCEL' if NO or Click 'OK' if YES")){
+        txt = "Thank You! But you are WRONG, I am NOT CORRECT!";
+    }else{
+        txt = "No One Ever Thinks I Am CORRECT... i guess they are the correct ones";
+    }
+ 
+}
 
 //button 18 - 
 
