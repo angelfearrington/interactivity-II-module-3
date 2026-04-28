@@ -159,10 +159,10 @@ buttonThirteen.addEventListener('mouseleave',()=>{
     buttonThirteen.textContent = 'What Am I?';
 })
 function whatAmI(){
-    alert('I don not want to be a button');
+    alert('I do not want to be a button');
 }
 
-//button 14 - 
+//button 14 - inner text change
 function changeTxt(id){
     id.innerHTML = "WHY AM I WRONG?";
 }
@@ -187,55 +187,154 @@ buttonSixteen.addEventListener('click',function(){
 });
 
 
-//button 17 - 
-function textPopUp(){
-    var txt;
-    if(confirm("Do You Think I Am CORRECT? Click 'CANCEL' if NO or Click 'OK' if YES")){
-        txt = "Thank You! But you are WRONG, I am NOT CORRECT!";
-    }else{
-        txt = "No One Ever Thinks I Am CORRECT... i guess they are the correct ones";
-    }
- 
+//button 17 - inner text change when hold down button and let go
+function mDown(obj){
+    obj.innerHTML = "...no one thinks i am correct...";
+}
+function mUp(obj){
+    obj.innerHTML = "i will never be correct..."
 }
 
-//button 18 - 
+//button 18 - alert
+document.getElementById("button18").addEventListener("click",function(){
+    alert("You Will NEVER Find The 'Correct' Button! Give Up Now!!")
+})
+
+//button 19 - inner text change with each click
+const buttonNineteen = document.getElementById('button19');
+let nineteenClick = 0;
+buttonNineteen.addEventListener('click',function(){
+    nineteenClick++;
+    if(nineteenClick === 1){
+        this.innerText = "Just Give Up";
+    }else if(nineteenClick === 2){
+        this.innerText = "This Seems Like Madness";
+    }else if(nineteenClick === 3){
+        this.innerText = "What Is The Point?";
+    }else if(nineteenClick === 4){
+        this.innerText = "Stop Clicking ME!"
+    }else if(nineteenClick === 5){
+        this.innerText = "I AM WRONG!!"
+    }else if(nineteenClick === 6){
+        this.style.display = "none";
+    }
+});
+
+//button 20 - disappear when click
+const buttonTwenty = document.getElementById('button20');
+let twenty = 0;
+buttonTwenty.addEventListener('click', function(){
+    twenty++;
+    if(twenty === 1){
+        this.style.display = 'none';
+    }
+});
+
+//button 21 - cancel or ok
+function insane(){
+    if(confirm("if you are insane click 'cancel' and if you are not insame click 'ok'"));
+}
+
+//button 22 - multiple alerts
+var c = document.getElementById("button22");
+c.addEventListener("click",myFunction);
+c.addEventListener("click",myOtherFunction);
+c.addEventListener("click",another);
+function myFunction(){
+    alert("Did you really think this was the right button?");
+}
+function myOtherFunction(){
+    alert("I'm embarrased for you...");
+}
+function another(){
+    alert("You should REALLY just give up");
+}
+
+//button 23 - change inner text each time button is clicked
+const buttonTwoThree = document.getElementById('button23');
+let twoThreeClick = 0;
+buttonTwoThree.addEventListener('click',function(){
+    twoThreeClick++;
+    if(twoThreeClick === 1){
+        this.innerText = "I don't belong here...";
+    }else if(twoThreeClick === 2){
+        this.innerText = "You don't belong here...";
+    }else if(twoThreeClick === 3){
+        this.innerText = "We should both leave";
+    }else if(twoThreeClick === 4){ 
+        this.style.display = "none";
+    }
+});
+
+//button 24 - prompt box and change inner text
+const buttonTwoFour = document.getElementById('button24');
+buttonTwoFour.addEventListener('click',function(){
+   let input = prompt("Will You Help Me?", "Type Yes or No");
+});
+function innerChange(id){
+    id.innerHTML = "I don't trust you..."
+}
+
+//button 25 - double click
+const buttonTwoFive = document.getElementById("button25");
+buttonTwoFive.addEventListener('mouseenter',()=>{
+    buttonTwoFive.textContent = 'Double Click Me';
+    }); 
+  buttonTwoFive.addEventListener('mouseleave',()=>{
+    buttonTwoFive.textContent = 'FIND ME!';
+});
+function twoClick(id){
+    id.innerHTML = "YOU FOUND ME!(Not the Correct Button)"
+}
+
+//button 26 - two alerts
+var m = document.getElementById("button26");
+m.addEventListener("click",pleaseLeave);
+m.addEventListener("click",leaveNow);
+function pleaseLeave(){
+    alert("Why won't you LEAVE?");
+}
+function leaveNow(){
+    alert("WE DON'T WANT YOU HERE!!");
+}
 
 
-//button 19 - 
+//button 27 - change inner text then disappear
+const buttonTwoSeven = document.getElementById('button27');
+let twoSevenClick = 0;
+buttonTwoSeven.addEventListener('click',function(){
+    twoSevenClick++;
+    if(twoSevenClick === 1){
+        this.innerText = "goodbye...";
+    }else if(twoSevenClick === 2){ 
+        this.style.display = "none";
+    }
+});
 
-
-//button 20 - 
-
-
-//button 21 - 
-
-
-//button 22 - 
-
-
-//button 23 - 
-
-
-//button 24 - 
-
-
-//button 25 - 
-
-
-//button 26 - 
-
-
-//button 27 - 
-
-
-//button 28 - 
+//button 28 - not a button, nothing happens when clicked
 
 
 //button 29 - 
+const buttonTwoNine = document.getElementById('button29');
+let twoNine = 0;
+buttonTwoNine.addEventListener('click', function(){
+    twoNine++;
+    if(twoNine === 1){
+        this.style.display = 'none';
+    }
+});
 
-
-//button 30 - 
-
+//button 30 - why
+const threeZero = document.getElementById("button30");
+threeZero.addEventListener('mouseenter',()=>{
+    threeZero.textContent = 'why not...?';
+    }); 
+  threeZero.addEventListener('mouseleave',()=>{
+    threeZero.textContent = '...why?';
+});
+function whyNot(){
+    alert('W H Y ??  WHAT IS THE REASON?!?!?!');
+}    
 
 
 
